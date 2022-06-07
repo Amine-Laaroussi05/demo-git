@@ -12,6 +12,17 @@ Ce projet est géré par git.
 git init
 ```
 
+* Si premier git sur le pc:
+
+```shell
+git config --global user.name "<prenom nom>"
+```
+
+```shell
+git config --global user.email "<email>"
+```
+
+
 * Voir les changements depuis la dernière sauvegarde:
 
 ```shell
@@ -22,5 +33,17 @@ git status
 
 ```shell
 git add README.md
+```
+
+* Sauvegarder un commit:
+
+```shell
+git commit -m "<message du commit>"
+```
+
+* Ouvrir l'utilitaire `gitk`:
+
+```shell
+gitk
 ```
 
